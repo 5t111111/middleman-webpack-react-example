@@ -48,3 +48,5 @@ activate :external_pipeline,
          command: build? ? './node_modules/webpack/bin/webpack.js -p --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
          source: '.tmp/dist',
          latency: 1
+
+ignore 'javascripts/*.jsx'
