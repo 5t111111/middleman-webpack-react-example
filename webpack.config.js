@@ -3,11 +3,12 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    all: './source/javascripts/all.js'
+    all: './source/javascripts/all.jsx'
   },
 
   resolve: {
-    root : path.join(__dirname, 'source/javascripts')
+    root : path.join(__dirname, 'source/javascripts'),
+    extensions: ['', '.js', '.jsx']
   },
 
   output: {
