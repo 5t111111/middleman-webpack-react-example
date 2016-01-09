@@ -2,7 +2,7 @@
   "name": "middleman-webpack-react-example",
   "version": "1.0.0",
   "description": "Middleman Webpack React Example",
-  "main": "index.js",
+  "main": "source/javascripts/all.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
